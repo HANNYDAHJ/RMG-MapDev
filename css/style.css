@@ -65,3 +65,44 @@ img{
     clear: both;
     display: table;
 }
+
+
+/* zoom buttons style */
+
+.main1 {
+    padding: 16px;
+    margin-top: 30px;
+}
+
+.main1 img {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    position: relative;
+}
+
+.button {
+    width: 300px;
+    height: 60px;
+    position: fixed;   
+}
+
+#btnstyle{
+background-color: none;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+border: none;
+}
+
+#icon{
+    width: 80px;
+    height: 80px;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
